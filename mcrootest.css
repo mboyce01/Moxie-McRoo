@@ -123,8 +123,10 @@ a{text-decoration: none;}
 .footer-prim{
     background-color: rgb(224,217,203);
     height:150px;
- 
-
+    text-align: center;
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.2em;
+    padding-top:1%; 
 }
 
 
