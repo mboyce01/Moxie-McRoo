@@ -1,0 +1,139 @@
+body{
+    background-color:rgb(248,245,239);
+}
+
+.container{
+    text-align: center;
+    width: 940px;
+    background: rgb(248,245,239);
+    font-family: 'Josefin Sans', sans-serif;
+    margin:10px auto;
+    font-size: 16px;
+    position: relative;
+}
+
+.primary-nav-bar{
+    position: relative;
+    background-color: rgb(248,245,239);
+    padding:100px 10px 10px 10px;
+    color: rgb(95,88,71);
+    margin-bottom: 30px
+}
+
+.nav-left{
+    background-color: rgb(248,245,239);
+    position: absolute;
+    left: 0
+}
+
+.nav-right{
+    background-color: rgb(248,245,239);
+    position: absolute;
+    right:0;
+}
+
+.logo{
+    position: absolute;
+    left: 315px;
+    top: 20px;
+    background-image: url('logo.jpg');
+    width:300px;
+    height: 83px; 
+    background-repeat: no-repeat;
+}
+
+li{
+  display: inline;
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-right:20px;
+  margin-left:20px;
+}
+
+a:link {color:rgb(95,88,71);}      /* unvisited link */
+a:visited {color:rgb(95,88,71);}  /* visited link */
+a:hover {color:rgb(230,158,48)}  /* mouse over link */
+a:active {color:rgb(95,88,71);}  /* selected link */
+a{text-decoration: none;}
+
+.home-center-container {
+    position:relative;
+    background-color: rgb(248,245,239);
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.home-content{
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    left:70px;
+    top: 50px;
+    background-color: rgb(248,245,239);
+    border-color: rgb(224,217,203);
+    border: 2px solid;
+
+}
+
+.home-pic-left-top{
+    background-image: url('betenpercent_1.jpg');
+    /*background-color: blue;*/
+    width: 300px;
+    height:200px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -245px;
+    top: 5px;
+}
+
+.home-pic-left-top:hover{
+    background-image: url('betenpercent.jpg');
+    /*background-color: blue;*/
+    width: 300px;
+    height:200px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -245px;
+    top: 5px;
+}
+
+
+.home-pic-left-bottom{
+    background-image: url('roadless_1.jpg');
+    /*background-color: blue;*/
+    width: 300px;
+    height:200px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -245px;
+    top: 220px;
+}
+
+.home-pic-left-bottom:hover{
+    background-image: url('roadless.jpg');
+    /*background-color: blue;*/
+    width: 300px;
+    height:200px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -245px;
+    top: 220px;
+}
+
+.footer-prim{
+    background-color: rgb(224,217,203);
+    height:150px;
+ 
+
+}
+
+
+
+/* Standard Styles  
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'IM Fell DW Pica', serif;
+color:rgb(230,158,48); orange
+color:; brown
+color:rgb(248,245,239); creme background
+color:rgb(224,217,203); light brown
+*/
