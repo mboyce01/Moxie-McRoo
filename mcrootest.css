@@ -10,13 +10,13 @@ body{
     margin:10px auto;
     font-size: 1.1em;
     position: relative;
+    color: rgb(95,88,71);
 }
 
 .primary-nav-bar{
     position: relative;
     background-color: rgb(248,245,239);
     padding:100px 10px 10px 10px;
-    color: rgb(95,88,71);
     margin-bottom: 30px
 }
 
@@ -124,9 +124,19 @@ a{text-decoration: none;}
     background-color: rgb(224,217,203);
     height:150px;
     text-align: center;
-    font-family: 'IM Fell DW Pica', serif;
-    font-size: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
     padding-top:1%; 
+}
+
+h1{
+    font-size: 1.2em;
+    font-family: 'IM Fell DW Pica', serif;
+    color: rgb(95,88,71);
+}
+
+.footer-list{
+    display: none;
 }
 
 .journal-content{
