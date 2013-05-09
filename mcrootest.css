@@ -24,7 +24,7 @@ body{
     background-color: rgb(248,245,239);
     float: left;
     width:290px;
-    background: green;
+   /* background: green;*/
 
 } 
 
@@ -32,7 +32,7 @@ body{
     background-color: rgb(248,245,239);
     float: right;
     width: 290px;
-    background: green;
+    /*background: green;*/
 
 }
 
