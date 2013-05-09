@@ -17,37 +17,43 @@ body{
     position: relative;
     background-color: rgb(248,245,239);
     padding:100px 10px 10px 10px;
-    margin-bottom: 30px
+    overflow: hidden;
 }
 
 .nav-left{
     background-color: rgb(248,245,239);
-    position: absolute;
-    left: 0
-}
+    float: left;
+    width:300px;
+    background: green;
+
+} 
 
 .nav-right{
     background-color: rgb(248,245,239);
-    position: absolute;
-    right:0;
+    float: right;
+    width: 300px;
+    background: green;
+
 }
 
 .logo{
-    position: absolute;
-    left: 315px;
-    top: 20px;
  /*   background-image: url('logo.jpg');*/
+    float: left;
     width:300px;
     height: 83px; 
     background-repeat: no-repeat;
+    margin: 0 10px;
+    box-shadow: 0 0 5px red;
 }
 
-li{
+.primary-nav-bar ul{
+    margin: 41px 0 0;
+    padding: 0;
+}
+
+.primary-nav-bar li{
   display: inline;
-  margin-top:100px;
-  margin-bottom:100px;
-  margin-right:20px;
-  margin-left:20px;
+  margin: 100px 18px;
 }
 
 a:link {color:rgb(95,88,71);}      /* unvisited link */
@@ -64,61 +70,43 @@ a{text-decoration: none;}
 }
 
 .home-content{
-    width: 800px;
-    height: 450px;
-    position: absolute;
-    left:70px;
-    top: 50px;
+    width: 900px;
+    min-height: 450px;
     background-color: rgb(248,245,239);
     border-color: rgb(224,217,203);
     border: 2px solid;
+    margin: 50px auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.home-content img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    padding: 2%
+}
+
+.home-content .left, .home-content .center, .home-content .right{
+    float: left;
+    margin-right: 2%;
+    width: 30%
+}
+
+.home-content .left{
 
 }
 
-.home-pic-left-top{
-    background-image: url('http://placekitten.com/800/430');}
-    /*background-color: blue;
-    width: 300px;
-    height:200px;
-    background-repeat: no-repeat;
-    position: relative;
-    left: -245px;
-    top: 5px;
+.home-content .center{
+
 }
 
-/*.home-pic-left-top:hover{
-    background-image: url('betenpercent.jpg');
-    /*background-color: blue;
-    width: 300px;
-    height:200px;
-    background-repeat: no-repeat;
-    position: relative;
-    left: -245px;
-    top: 5px;
-}*/
-
-
-
-.home-pic-left-bottom{
-    background-image: url('roadless_1.jpg');
-    /*background-color: blue;*/
-    width: 300px;
-    height:200px;
-    background-repeat: no-repeat;
-    position: relative;
-    left: -245px;
-    top: 220px;
+.home-content .right{
+    margin-right: 0;
 }
 
-.home-pic-left-bottom:hover{
-    background-image: url('roadless.jpg');
-    /*background-color: blue;*/
-    width: 300px;
-    /*height:200px;*/
-    background-repeat: no-repeat;
-    position: relative;
-    left: -245px;
-    top: 220px;
+.home-content .right .bottom{
+    margin-top:10px;
 }
 
 .footer-prim{
