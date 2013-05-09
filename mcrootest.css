@@ -4,7 +4,7 @@ body{
 
 .container{
     text-align: center;
-    width: 940px;
+    width: 936px;
     background: rgb(248,245,239);
     font-family: 'Josefin Sans', sans-serif;
     margin:10px auto;
@@ -23,7 +23,7 @@ body{
 .nav-left{
     background-color: rgb(248,245,239);
     float: left;
-    width:300px;
+    width:290px;
     background: green;
 
 } 
@@ -31,7 +31,7 @@ body{
 .nav-right{
     background-color: rgb(248,245,239);
     float: right;
-    width: 300px;
+    width: 290px;
     background: green;
 
 }
@@ -93,13 +93,6 @@ a{text-decoration: none;}
     width: 30%
 }
 
-.home-content .left{
-
-}
-
-.home-content .center{
-
-}
 
 .home-content .right{
     margin-right: 0;
@@ -109,7 +102,7 @@ a{text-decoration: none;}
     margin-top:10px;
 }
 
-.footer-prim{
+.footer-wrapper{
     background-color: rgb(224,217,203);
     height:150px;
     text-align: center;
@@ -118,17 +111,49 @@ a{text-decoration: none;}
     padding-top:1%; 
 }
 
-h1{
+.footer-container{
+    width: 936px;
+    margin: 0 auto;
+}
+
+.one_fourth h1 {
     font-size: 1.2em;
     font-family: 'IM Fell DW Pica', serif;
     color: rgb(95,88,71);
 }
 
-.footer-list{
-    display: block;
+.one_fourth{
+    float: right;
+    width: 22%;
+    text-align:left;
+
 }
 
-.journal-content{
+.one_fourth ul{
+    list-style-type: none;
+    margin-left: none;
+}
+
+.last{
+    margin:0;
+}
+
+
+
+
+/* Standard Styles  
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'IM Fell DW Pica', serif;
+color:rgb(230,158,48); orange
+color:; brown
+color:rgb(248,245,239); creme background
+color:rgb(224,217,203); light brown
+*/
+
+
+
+
+/*.journal-content{
     width: 800px;
     height: 450px;
     position: absolute;
@@ -153,11 +178,9 @@ h2{
     font-family: 'IM Fell DW Pica', serif;    
 }
 
-/* Standard Styles  
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'IM Fell DW Pica', serif;
-color:rgb(230,158,48); orange
-color:; brown
-color:rgb(248,245,239); creme background
-color:rgb(224,217,203); light brown
+.footer-container{
+    width:936px;
+    margin: 0 auto; 
+    background-color: purple;
+ }
 */
