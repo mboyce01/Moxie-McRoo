@@ -126,12 +126,16 @@ a{text-decoration: none;}
     float: right;
     width: 22%;
     text-align:left;
+    color: rgb(95,88,71);  
 
 }
 
 .one_fourth ul{
     list-style-type: none;
-    margin-left: none;
+    margin-left: -40px;
+    padding-left: none;
+    margin-bottom:; 10px;
+
 }
 
 .last{
