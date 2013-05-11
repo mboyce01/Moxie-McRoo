@@ -1,18 +1,5 @@
-body{
-    background-color:rgb(248,245,239);
-}
-
-.container{
-    text-align: center;
-    width: 936px;
-    background: rgb(248,245,239);
-    font-family: 'Josefin Sans', sans-serif;
-    margin:10px auto;
-    font-size: 1.1em;
-    position: relative;
-    color: rgb(95,88,71);
-}
-
+/* ------------Navigation ----------
+----------------------------------*/
 .primary-nav-bar{
     position: relative;
     background-color: rgb(248,245,239);
@@ -55,6 +42,26 @@ body{
   display: inline;
   margin: 100px 18px;
 }
+
+/* ------------Body---------------
+----------------------------------*/
+
+
+body{
+    background-color:rgb(248,245,239);
+}
+
+.container{
+    text-align: center;
+    width: 936px;
+    background: rgb(248,245,239);
+    font-family: 'Josefin Sans', sans-serif;
+    margin:10px auto;
+    font-size: 1.1em;
+    position: relative;
+    color: rgb(95,88,71);
+}
+
 
 a:link {color:rgb(95,88,71);}      /* unvisited link */
 a:visited {color:rgb(95,88,71);}  /* visited link */
@@ -119,6 +126,9 @@ a{text-decoration: none;}
 
 
 
+/* ------------Footer--------------
+----------------------------------*/
+
 .footer-wrapper{
     background-color: rgb(224,217,203);
     height:150px;
@@ -169,6 +179,33 @@ a{text-decoration: none;}
 
 
 
+/* ------------Journal--------------
+----------------------------------*/
+
+.journal p, h2{
+
+    padding:0 2%;  
+}
+
+.journal p{
+    font-size: .8em;
+    text-align: justify;
+}
+
+.journal h2{
+    padding-top: 30px;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgb(230,158,48); 
+    text-align: center;    
+
+}
+
+p:last-of-type{
+    text-indent: 30px;
+}
+
+
 /* Standard Styles  
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'IM Fell DW Pica', serif;
@@ -192,23 +229,18 @@ color:rgb(224,217,203); light brown
     border: 2px solid;
 }
 
-p, h2{
+. journal p, h2{
         text-align: justify;  
 }
 
-p{
+.journal p{
     font-size: .8em;
 }
 
-h2{
+.journal h2{
     padding-top: 50px;
     font-size: 1em;
     font-family: 'IM Fell DW Pica', serif;    
 }
 
-.footer-container{
-    width:936px;
-    margin: 0 auto; 
-    background-color: purple;
- }
 */
