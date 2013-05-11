@@ -106,9 +106,12 @@ a{text-decoration: none;}
     padding: 2% 0;
 }
 
-.home-content .right .bottom{
-    margin-top:10px;
+.home-content .center{
+    position: center;
+    margin: 0 auto;
+    padding: 2% 0;
 }
+
 
 .footer-wrapper{
     background-color: rgb(224,217,203);
