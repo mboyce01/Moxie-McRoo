@@ -78,13 +78,14 @@ a{text-decoration: none;}
     margin: 50px auto;
     clear: both;
     overflow: hidden;
+    margin-bottom: 60px;
 }
 
 .home-content img {
     width: 100%;
     /*max-width: 200px;*/
     display: block;
-    padding: 2%
+    padding: 2%;
 }
 
 .home-content .left, .home-content .center, .home-content .right{
@@ -116,7 +117,6 @@ a{text-decoration: none;}
 .footer-wrapper{
     background-color: rgb(224,217,203);
     height:150px;
-    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
     padding-top:1%; 
@@ -131,7 +131,7 @@ a{text-decoration: none;}
     font-size: 1.2em;
     font-family: 'IM Fell DW Pica', serif;
     color: rgb(95,88,71);
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 .one_fourth{
@@ -144,7 +144,7 @@ a{text-decoration: none;}
 
 .one_fourth ul{
     list-style-type: none;
-    margin-left: -15px;
+    margin-left: 10px;
     padding-left: none;
     margin-bottom: 10px;
 
@@ -157,7 +157,8 @@ a{text-decoration: none;}
 .footer-container img{
     position: absolute;
     margin-top: -60px;
-    margin-left: -130px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
