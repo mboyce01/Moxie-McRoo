@@ -70,7 +70,7 @@ a{text-decoration: none;}
 }
 
 .home-content{
-    width: 750px;
+    width: 800px;
     min-height: 450px;
     background-color: rgb(248,245,239);
     border-color: rgb(224,217,203);
@@ -86,33 +86,36 @@ a{text-decoration: none;}
     /*max-width: 200px;*/
     display: block;
     padding: 2%;
+
 }
 
 .home-content .left, .home-content .center, .home-content .right{
     float: left;
-    margin-right: 2%;
-    width: 30%
+/*    margin-right: 2%;*/
+
 }
 
 
 .home-content .right{
     margin-right: 0;
-    float:right;
-    padding: 2% 2% 2% 0;  
+/*    float:right;*/
+/*    padding: 2% 2% 2% 0;  */
 }
 
 .home-content .left{
-    margin-left: 0;
-    float:left;
-    padding: 2% 0;
+/*    margin-left: 0;*/
+    padding-right: 1% 
 }
 
 .home-content .center{
-    position: center;
-    margin: 0 auto;
-    padding: 2% 0;
+/*    position: center;
+    margin: 0 auto;*/
+    padding-right: 1%; 
 }
 
+.home-content .right .bottom{
+    padding-top: 0;
+}
 
 
 
@@ -173,7 +176,7 @@ color:rgb(230,158,48); orange
 color:; brown
 color:rgb(248,245,239); creme background
 color:rgb(224,217,203); light brown
-*/
+
 
 
 
