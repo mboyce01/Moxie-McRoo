@@ -16,7 +16,7 @@ body{
 .primary-nav-bar{
     position: relative;
     background-color: rgb(248,245,239);
-    padding:100px 10px 10px 10px;
+    padding:50px 10px 10px 10px;
     overflow: hidden;
 }
 
@@ -42,7 +42,7 @@ body{
     width:300px;
     height: 83px; 
     background-repeat: no-repeat;
-    margin: 0 10px;
+    margin: -40px 10px 10px 10px; 
   /*  box-shadow: 0 0 5px red;*/
 }
 
@@ -112,6 +112,8 @@ a{text-decoration: none;}
     margin: 0 auto;
     padding: 2% 0;
 }
+
+
 
 
 .footer-wrapper{
