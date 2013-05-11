@@ -183,7 +183,6 @@ a{text-decoration: none;}
 ----------------------------------*/
 
 .journal p, h2{
-
     padding:0 2%;  
 }
 
@@ -196,13 +195,24 @@ a{text-decoration: none;}
     padding-top: 30px;
     font-size: 1em;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(230,158,48); 
-    text-align: center;    
+/*    color:rgb(230,158,48); */
+    text-align: left;    
 
 }
 
 p:last-of-type{
     text-indent: 30px;
+}
+
+.journal .header{
+    font-family: 'IM Fell DW Pica', serif; 
+    background-color: rgb(224,217,203);
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+    margin: 1%;
+    padding: 1%; 
+    color:rgb(230,158,48); 
 }
 
 
