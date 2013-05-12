@@ -131,7 +131,7 @@ a{text-decoration: none;}
 
 .footer-wrapper{
     background-color: rgb(224,217,203);
-    height:150px;
+    height:140px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
     padding-top:1%; 
@@ -179,7 +179,7 @@ a{text-decoration: none;}
 
 .footer-copyright {
     background-color: rgb(224,217,203);
-    height:30px;
+    height:25px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: .6em;
     padding-top:1%; 
@@ -256,7 +256,7 @@ last thing done was trying to get experiment side bar over to the side*/
     width: 78%;
     float: left;
     text-align: left; 
-/*    height: 1003px*/
+    height: 608px
 }
 
 .left-side-bar{
