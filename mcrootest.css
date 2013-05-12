@@ -3,14 +3,14 @@
 .primary-nav-bar{
     position: relative;
     background-color: rgb(248,245,239);
-    padding:50px 10px 10px 10px;
+    padding:90px 10px 10px 10px;
     overflow: hidden;
 }
 
 .nav-left{
     background-color: rgb(248,245,239);
     float: left;
-    width:290px;
+    width:270px;
    /* background: green;*/
 
 } 
@@ -18,7 +18,7 @@
 .nav-right{
     background-color: rgb(248,245,239);
     float: right;
-    width: 290px;
+    width: 270px;
     /*background: green;*/
 
 }
@@ -26,8 +26,8 @@
 .logo{
  /*   background-image: url('logo.jpg');*/
     float: left;
-    width:300px;
-    height: 83px; 
+    width:350px;
+    height: 75px; 
     background-repeat: no-repeat;
     margin: -40px 10px 10px 10px; 
   /*  box-shadow: 0 0 5px red;*/
@@ -177,6 +177,18 @@ a{text-decoration: none;}
     margin-right: 0px;
 }
 
+.footer-copyright {
+    background-color: rgb(224,217,203);
+    height:30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .6em;
+    padding-top:1%; 
+    border-top: 2px solid;
+    border-color: rgb(140,130,105);
+    text-align: center;
+    letter-spacing: 4px;
+}
+
 
 
 /* ------------Journal--------------
@@ -240,8 +252,8 @@ last thing done was trying to get experiment side bar over to the side*/
 .experiment-content{
     background-color: rgb(224,217,203);
     margin: 1%;
-    padding: 1%;
-    width: 70%;
+    padding: 2%;
+    width: 78%;
     float: left;
     text-align: left; 
 /*    height: 1003px*/
@@ -249,29 +261,29 @@ last thing done was trying to get experiment side bar over to the side*/
 
 .left-side-bar{
     float:left;
-    width:24%;
+    width:15%;
     padding-left: 1%;
     padding-top: .7%;
 }
 
 .btn{
-  display: block;
-  margin: 10px;
+  display: inline;
+  margin: 4px;
   text-align: center;
   color: white;
   border: 1px solid;
-  border-radius: 20px;
-/*  margin-bottom: 25px;
-  width: 60%;*/
+  border-radius: 4px;
+  width: 60%;
 /*  padding-top: 4%*/
   vertical-align: middle;
+  padding:4px 7px;
  }
 
 .btn-mini {
   height: 20px;
   padding: 1px, 4px;
   font-size: 100%;
-  width: 50%
+  width: 50%;
 }
 
 .btn-small {
@@ -279,14 +291,14 @@ last thing done was trying to get experiment side bar over to the side*/
 /*  padding: 2px, 6px;*/
   font-size: 120%;
 /*  margin-bottom: 17px;*/
-  width: 65%
+  width: 65%;
 }
 
 .btn-large{
   height: 75px;
 /*  padding: 3px, 8px;*/
   font-size: 150%;
-  width: 80%
+  width: 80%;
 }
 
 .btn-default {
@@ -318,6 +330,10 @@ last thing done was trying to get experiment side bar over to the side*/
   background: white;
   color: black;
   border-bottom-color:rgb(203,203,202);
+}
+
+.experiment-content h2{
+    padding: 0;
 }
 
 /*------------About-------------
