@@ -224,7 +224,7 @@ p:last-of-type{
     color:rgb(230,158,48); 
 }
 
-.side-bar{
+.right-side-bar{
     float:right;
     width:24%;
     padding-right: 2%;
@@ -237,6 +237,100 @@ p:last-of-type{
 
 last thing done was trying to get experiment side bar over to the side*/
 
+.experiment-content{
+    background-color: rgb(224,217,203);
+    margin: 1%;
+    padding: 1%;
+    width: 70%;
+    float: left;
+    text-align: left; 
+/*    height: 1003px*/
+}
+
+.left-side-bar{
+    float:left;
+    width:24%;
+    padding-left: 1%;
+    padding-top: .7%;
+}
+
+.btn{
+  display: block;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  border: 1px solid;
+  border-radius: 20px;
+/*  margin-bottom: 25px;
+  width: 60%;*/
+/*  padding-top: 4%*/
+  vertical-align: middle;
+ }
+
+.btn-mini {
+  height: 20px;
+  padding: 1px, 4px;
+  font-size: 100%;
+  width: 50%
+}
+
+.btn-small {
+  height: 50px;
+/*  padding: 2px, 6px;*/
+  font-size: 120%;
+/*  margin-bottom: 17px;*/
+  width: 65%
+}
+
+.btn-large{
+  height: 75px;
+/*  padding: 3px, 8px;*/
+  font-size: 150%;
+  width: 80%
+}
+
+.btn-default {
+  background: rgb(33,106,216);
+  border-color:rgb(23,5,112);
+  border-bottom-color: rgb(112,86,237);
+}
+
+.btn-success {
+  background: rgb(81,195,89);
+  border-color: rgb(44,136,11);
+  border-bottom-color: rgb(54,170,13)
+}
+
+.btn-warning {
+  background: rgb(250,233,89);
+  border-color:rgb(255,156,0);
+  border-bottom-color:rgb(245,207,55);
+  color: black;
+}
+
+.btn-danger {
+  background: rgb(247,36,36);
+  border-color:rgb(192,54,0);
+  border-bottom-color:rgb(224,80,24);
+}
+
+.btn-boring {
+  background: white;
+  color: black;
+  border-bottom-color:rgb(203,203,202);
+}
+
+/*------------About-------------
+------------------------------------*/
+
+
+.mkb-photo{
+    float:left;
+    width:24%;
+    padding-left: 1%;
+    padding-top: .7%;
+
+}
 
 /* Standard Styles  
 font-family: 'Josefin Sans', sans-serif;
