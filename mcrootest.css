@@ -280,14 +280,14 @@ last thing done was trying to get experiment side bar over to the side*/
  }
 
 .btn-mini {
-  height: 20px;
+/*  height: 20px;*/
   padding: 1px, 4px;
-  font-size: 100%;
+/*  font-size: 100%;*/
   width: 50%;
 }
 
 .btn-small {
-  height: 50px;
+/*  height: 50px;*/
 /*  padding: 2px, 6px;*/
   font-size: 120%;
 /*  margin-bottom: 17px;*/
@@ -295,7 +295,7 @@ last thing done was trying to get experiment side bar over to the side*/
 }
 
 .btn-large{
-  height: 75px;
+/*  height: 75px;*/
 /*  padding: 3px, 8px;*/
   font-size: 150%;
   width: 80%;
