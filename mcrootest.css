@@ -348,6 +348,21 @@ last thing done was trying to get experiment side bar over to the side*/
 
 }
 
+.about-quote{
+    font-family: 'IM Fell DW Pica', serif; 
+    background-color: rgb(224,217,203);
+/*    font-size: 2em;*/
+    text-align: center;
+    margin: 0 auto;
+    margin: 1%;
+    padding: 6% 1%; 
+    width:70%;
+    float:left;
+    font-size: 120%;
+}
+
+
+
 /* Standard Styles  
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'IM Fell DW Pica', serif;
